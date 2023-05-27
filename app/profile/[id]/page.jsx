@@ -3,7 +3,7 @@
 import { useState, UseEffect, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-import Profile from "@components/profile";
+import Profile from "@components/Profile";
 
 const OtherProfile = ({ params }) => {
   const [posts, setPosts] = useState([]);
