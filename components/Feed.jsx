@@ -52,6 +52,7 @@ const Feed = () => {
       const response = await fetch("/api/prompt", { cache: "no-store" });
       const data = await response.json();
       setPosts(data);
+      console.log("Setting Posts Data on Feed Page");
     };
 
     fetchPosts();
